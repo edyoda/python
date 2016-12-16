@@ -1,0 +1,326 @@
+ Programming Java
+ Getting Started                              
+ Base Types                             
+ Classes and Objects                            
+ Creating and Using Objects                     
+ Defining a Class                           
+ Strings, Wrappers, Arrays, and Enum Types              
+ Expressions                                 
+ Literals                                
+ Operators                              
+ Type Conversions                          
+ Control Flow                                
+ The If and Switch Statements                   
+ Loops                                
+ Explicit Control-Flow Statements                  
+ Simple Input and Output                         
+ An Example Program                           
+ Packages and Imports                           
+ Software Development                          
+ Design                                
+ Pseudocode                             
+ Coding                                
+ Documentation and Style                      
+ Testing and Debugging                       
+ Exercises                                  
+
+ Object-Oriented Design 
+ Goals, Principles, and Patterns                     
+ Object-Oriented Design Goals                   
+ Object-Oriented Design Principles                 
+ Design Patterns                           
+ Inheritance                                 
+ Extending the CreditCard Class                   
+ Polymorphism and Dynamic Dispatch               
+ Inheritance Hierarchies                       
+ Interfaces and Abstract Classes                     
+ Interfaces in Java                          
+ Multiple Inheritance for Interfaces                 
+ Abstract Classes                           
+ Exceptions                                 
+ Catching Exceptions                         
+ Throwing Exceptions                        
+ Java’s Exception Hierarchy                     
+ Casting and Generics                           
+ Casting                               
+ Generics                               
+ Nested Classes                               
+ Exercises                                  
+ Design Problem: Classes for CLI based Multiuser shopping E-Kart 
+
+ Fundamental Data Structures 
+ Using Arrays                                
+ Storing Game Entries in an Array                  
+ Sorting an Array                           
+ javautil Methods for Arrays and Random Numbers        
+ Simple Cryptography with Character Arrays            
+ Two-Dimensional Arrays and Positional Games          
+ Singly Linked Lists                             
+ Implementing a Singly Linked List Class              
+ Circularly Linked Lists                           
+ Round-Robin Scheduling                      
+ Designing and Implementing a Circularly Linked List       
+ Doubly Linked Lists                            
+ Implementing a Doubly Linked List Class             
+ Equivalence Testing                            
+ Equivalence Testing with Arrays                  
+ Equivalence Testing with Linked Lists               
+ Cloning Data Structures                         
+ Cloning Arrays                            
+ Cloning Linked Lists                         
+ Exercises                                  
+ Design Problem: Storing items in E-Kart in an Array. Keeping storage functionality modular
+ for further enhancements.
+
+ Algorithm Analysis 
+ Experimental Studies                           
+ Moving Beyond Experimental Analysis               
+ The Seven Functions Used in This Book                
+ Comparing Growth Rates                      
+ Asymptotic Analysis                            
+ The “Big-Oh” Notation                       
+ Comparative Analysis                        
+ Examples of Algorithm Analysis                  
+ Simple Justification Techniques                     
+ By Example                             
+ The “Contra” Attack                        
+ Induction and Loop Invariants                   
+ Exercises                                  
+ Design Problem: Understaing current complexity of Shopping E-Kart
+
+ Recursion - Fundamental of designing next level of data structures
+ Illustrative Examples                           
+ The Factorial Function                       
+ Drawing an English Ruler                      
+ Binary Search                            
+ File Systems                             
+ Analyzing Recursive Algorithms                     
+ Further Examples of Recursion                      
+ Linear Recursion                           
+ Binary Recursion                          
+ Multiple Recursion                         
+ Designing Recursive Algorithms                     
+ Recursion Run Amok                           
+ Maximum Recursive Depth in Java                 
+ Eliminating Tail Recursion                        
+ Exercises                                  
+  
+ Stacks, Queues, and Deques 
+ Stacks                                    
+ The Stack Abstract Data Type                   
+ A Simple Array-Based Stack Implementation           
+ Implementing a Stack with a Singly Linked List          
+ Reversing an Array Using a Stack                 
+ Matching Parentheses and HTML Tags              
+ Queues                                   
+ The Queue Abstract Data Type                  
+ Array-Based Queue Implementation                
+ Implementing a Queue with a Singly Linked List          
+ A Circular Queue                          
+ Double-Ended Queues                           
+ The Deque Abstract Data Type                  
+ Implementing a Deque                       
+ Deques in the Java Collections Framework             
+ Exercises                                  
+ Design Problem: Maintaining priority queue of unavailable items. Sending notification to user when 
+ item is available to users based on priority
+
+
+ List and Iterator ADTs 
+ The List ADT                               
+ Array Lists                                 
+ Dynamic Arrays                           
+ Implementing a Dynamic Array                   
+ Amortized Analysis of Dynamic Arrays               
+ Java’s StringBuilder class                      
+ Positional Lists                               
+ Positions                               
+ The Positional List Abstract Data Type              
+ Doubly Linked List Implementation                 
+ Iterators                                   
+ The Iterable Interface and Java’s For-Each Loop         
+ Implementing Iterators                       
+ The Java Collections Framework                    
+ List Iterators in Java                        
+ Comparison to Our Positional List ADT              
+ List-Based Algorithms in the Java Collections Framework     
+ Sorting a Positional List                         
+ Case Study: Maintaining Access Frequencies             
+ Using a Sorted List                         
+ Using a List with the Move-to-Front Heuristic           
+ Exercises                                  
+ Design Problem: Changing storage functionality to list data structures & realizing benefits over array 
+
+ Trees 
+ General Trees                                
+ Tree Definitions and Properties                   
+ The Tree Abstract Data Type                   
+ Computing Depth and Height                    
+ Binary Trees                                
+ The Binary Tree Abstract Data Type                
+ Properties of Binary Trees                     
+ Implementing Trees                            
+ Linked Structure for Binary Trees                  
+ Array-Based Representation of a Binary Tree           
+ Linked Structure for General Trees                 
+ Tree Traversal Algorithms                        
+ Preorder and Postorder Traversals of General Trees        
+ Breadth-First Tree Traversal                    
+ Inorder Traversal of a Binary Tree                 
+ Implementing Tree Traversals in Java               
+ Applications of Tree Traversals                   
+ Euler Tours                             
+ Exercises                                  
+ Design Problem: Display all items in alphabetical order, increasing prices, exepected time of delivary
+
+ Priority Queues 
+ The Priority Queue Abstract Data Type                
+ Priorities                               
+ The Priority Queue ADT                      
+ Implementing a Priority Queue                     
+ The Entry Composite                        
+ Comparing Keys with Total Orders                 
+ The AbstractPriorityQueue Base Class               
+ Implementing a Priority Queue with an Unsorted List       
+ Implementing a Priority Queue with a Sorted List         
+ Heaps                                    
+ The Heap Data Structure                      
+ Implementing a Priority Queue with a Heap            
+ Analysis of a Heap-Based Priority Queue              
+ Bottom-Up Heap Construction ⋆                 
+ Using the javautilPriorityQueue Class               
+ Sorting with a Priority Queue                      
+ Selection-Sort and Insertion-Sort                  
+ Heap-Sort                              
+ Adaptable Priority Queues                        
+ Location-Aware Entries                       
+ Implementing an Adaptable Priority Queue            
+ Exercises                                  
+
+ Maps, Hash Tables, and Skip Lists 
+ Maps                                    
+ The Map ADT                           
+ Application: Counting Word Frequencies              
+ An AbstractMap Base Class                    
+ A Simple Unsorted Map Implementation              
+ Hash Tables                                
+ Hash Functions                           
+ Collision-Handling Schemes                     
+ Load Factors, Rehashing, and Efficiency              
+ Java Hash Table Implementation                  
+ Sorted Maps                                
+ Sorted Search Tables                        
+ Two Applications of Sorted Maps                 
+ Skip Lists                                  
+ Search and Update Operations in a Skip List           
+ Probabilistic Analysis of Skip Lists ⋆                
+ Sets, Multisets, and Multimaps                     
+ The Set ADT                            
+ The Multiset ADT                         
+ The Multimap ADT                         
+ Exercises                                  
+ Design Problems: Improvising current solution with Maps & check the results.
+
+ Search Trees 
+ Binary Search Trees                            
+ Searching Within a Binary Search Tree               
+ Insertions and Deletions                       
+ Java Implementation                        
+ Performance of a Binary Search Tree                
+ Balanced Search Trees                          
+ Java Framework for Balancing Search Trees            
+ AVL Trees                                  
+ Update Operations                         
+ Java Implementation                        
+ Splay Trees                                 
+ Splaying                               
+ When to Splay                            
+ Java Implementation                        
+ Amortized Analysis of Splaying ⋆                 
+ (,) Trees                                 
+ Multiway Search Trees                       
+ (,)-Tree Operations                        
+ Red-Black Trees                              
+ Red-Black Tree Operations                     
+ Java Implementation                        
+ Exercises                                  
+
+ Sorting and Selection 
+ Merge-Sort                                 
+ Divide-and-Conquer                         
+ Array-Based Implementation of Merge-Sort            
+ The Running Time of Merge-Sort                 
+ Merge-Sort and Recurrence Equations ⋆              
+ Alternative Implementations of Merge-Sort            
+ Quick-Sort                                 
+ Randomized Quick-Sort                       
+ Additional Optimizations for Quick-Sort              
+ Studying Sorting through an Algorithmic Lens            
+ Lower Bound for Sorting                      
+ Linear-Time Sorting: Bucket-Sort and Radix-Sort         
+ Comparing Sorting Algorithms                      
+ Selection                                  
+ Prune-and-Search                          
+ Randomized Quick-Select                      
+ Analyzing Randomized Quick-Select                
+ Exercises                                  
+
+ Text Processing 
+ Abundance of Digitized Text                       
+ Notations for Character Strings                   
+ Pattern-Matching Algorithms                      
+ Brute Force                             
+ The Boyer-Moore Algorithm                    
+ The Knuth-Morris-Pratt Algorithm                 
+ Tries                                     
+ Standard Tries                            
+ Compressed Tries                          
+ Suffix Tries                             
+ Search Engine Indexing                       
+ Text Compression and the Greedy Method              
+ The Huffman Coding Algorithm                  
+ The Greedy Method                         
+ Dynamic Programming                          
+ Matrix Chain-Product                        
+ DNA and Text Sequence Alignment                
+ Exercises                                  
+
+ Graph Algorithms 
+ Graphs                                    
+ The Graph ADT                           
+ Data Structures for Graphs                        
+ Edge List Structure                         
+ Adjacency List Structure                      
+ Adjacency Map Structure                      
+ Adjacency Matrix Structure                     
+ Java Implementation                        
+ Graph Traversals                              
+ Depth-First Search                         
+ DFS Implementation and Extensions                
+ Breadth-First Search                        
+ Transitive Closure                             
+ Directed Acyclic Graphs                         
+ Topological Ordering                        
+ Shortest Paths                               
+ Weighted Graphs                          
+ Dijkstra’s Algorithm                         
+ Minimum Spanning Trees                         
+ Prim-Jarn´ık Algorithm                       
+ Kruskal’s Algorithm                         
+ Disjoint Partitions and Union-Find Structures           
+ Exercises                                  
+
+ Memory Management and B-Trees 
+ Memory Management                           
+ Stacks in the Java Virtual Machine                 
+ Allocating Space in the Memory Heap               
+ Garbage Collection                         
+ Memory Hierarchies and Caching                    
+ Memory Systems                          
+ Caching Strategies                         
+ External Searching and B-Trees                     
+ (a,b) Trees                             
+ B-Trees                               
+ External-Memory Sorting                         
+ Multiway Merging                          
+ Exercises                                  
