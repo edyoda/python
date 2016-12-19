@@ -25,6 +25,7 @@ class MyStuff:
 MyStuff.staticfunction()
 print MyStuff.INFO
 '''
+'''
 class Student:
     def __init__(self,name,age):
         self.name = name
@@ -70,3 +71,64 @@ class Info:
 
 s = set([Info('awi'),Info('awi')])
 print s
+'''
+'''
+class Base:
+    def __init__(self,name,age):
+        self.__name = name
+        self._age = age
+
+    def func(self,somename):
+        self.__name = somename
+
+b = Base('awantik',44)
+b.func('awi')
+#print b._Base__name
+print b._age
+'''
+'''
+class Base:
+    def __init__(self,name):
+        self.name = name
+        print 'Base'
+
+    def enjoy(self):
+        print 'Enjoy in base'
+
+
+class Derived(Base):
+    def __init__(self,name,age):
+        self.age = age
+        Base.__init__(self,name)
+        print 'Derived'
+
+    def enjoy(self):
+        #Base.enjoy(self)
+        print 'Enjoy in derived'
+
+b = Base('awa')
+b = Derived('awi',66)
+#print d.__dict__
+#d.enjoy()
+b.enjoy()
+'''
+
+from abc import ABCMeta,abstractmethod
+
+class MyABC:
+    __metaclass__ = ABCMeta
+
+    @abstractmethod
+    def absmethod(self):
+        pass
+
+class DerABC(MyABC):
+    def absmethod(self):
+        print 'Hello World'
+
+b = DerABC()
+b.absmethod()
+
+print type(b) == MyABC
+print isinstance(b,MyABC)
+print isinstance(b,DerABC)
