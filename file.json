@@ -1,5 +1,22 @@
-{ "menu": "fine", 
-  "id": "file",
-  "value": "File",
-  "popup": "Awantik"
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": 55,
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "null",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
 }

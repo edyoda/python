@@ -1,0 +1,77 @@
+ l2
+['good', 'god', 'great']
+
+ l
+[1, 2, 3, 3, 4, 77, 'good god']
+ l.extend(l2)
+ l
+[1, 2, 3, 3, 4, 77, 'good god', 'good', 'god', 'great']
+
+
+
+ l2
+['good', 'god', 'great']
+
+
+ l
+[1, 2, 3, 3, 4, 77, 'good god', 'good', 'god', 'great']
+ l.append(l2)
+ l
+[1, 2, 3, 3, 4, 77, 'good god', 'good', 'god', 'great', ['good', 'god', 'great']]
+
+
+ l[-1]
+['good', 'god', 'great']
+ l[::-1]
+[['good', 'god', 'great'], 'great', 'god', 'good', 'good god', 77, 4, 3, 3, 2, 1]
+ l
+[1, 2, 3, 3, 4, 77, 'good god', 'good', 'god', 'great', ['good', 'god', 'great']]
+
+
+ l
+[1, 2, 3, 3, 4, 77, 'good god', 'good', 'god', 'great', ['good', 'god', 'great']]
+
+* insert - Add entity at a particular position.
+* remove - removes by values. Only the first occurrence.Don't return anything
+* pop - remove by index. Returns the data
+* sort - Sorts data
+
+ l = [1,2,3,3,7,8,-3,5]
+ l.sort()
+ l
+[-3, 1, 2, 3, 3, 5, 7, 8]
+
+ l.sort(reverse=True)
+
+
+ l
+[8, 7, 5, 3, 3, 2, 1, -3]
+
+* reverse - reverses the list
+ s = 'this is my country and i love it'
+ s[::-1]
+'ti evol i dna yrtnuoc ym si siht'
+ l = s.split()
+ l.reverse()
+ l
+['it', 'love', 'i', 'and', 'country', 'my', 'is', 'this']
+ ' '.join(l)
+'it love i and country my is this'
+
+
+
+ s = 'ssdkajskajs dfdf'
+ len(s)
+16
+ l = [1,2,3,77,99,44]
+ len(l)
+6
+ l = [1,2,3,4,5,5555]
+ sum(l)
+5570
+ max(l)
+5555
+ min(l)
+1
+ l = ['hello world','good guy']
+ len(l[0])
