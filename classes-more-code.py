@@ -113,6 +113,7 @@ b = Derived('awi',66)
 b.enjoy()
 '''
 
+'''
 from abc import ABCMeta,abstractmethod
 
 class MyABC:
@@ -132,3 +133,64 @@ b.absmethod()
 print type(b) == MyABC
 print isinstance(b,MyABC)
 print isinstance(b,DerABC)
+'''
+'''
+class Base(object):
+    def __init__(self,name):
+        self.name = name
+        print 'Base'
+
+    def enjoy(self):
+        print 'Enjoy in base'
+
+
+class Derived(Base):
+    def __init__(self,name,age):
+        self.age = age
+        super(Derived,self).__init__(name)
+        print 'Derived'
+
+    def enjoy(self):
+        #Base.enjoy(self)
+        print 'Enjoy in derived'
+
+#b = Base('awa')
+b = Derived(name='awi',age=66)
+#print d.__dict__
+#d.enjoy()
+b.enjoy()
+'''
+
+class Base1:
+    def __init__(self,name):
+        self.name = name
+        print 'Base1'
+
+    def enjoy(self):
+        print 'Enjoy in base1'
+
+
+class Base2:
+    def __init__(self,age):
+        self.age = age
+        print 'Base2'
+
+    def enjoy(self):
+        Base1.enjoy(self)
+        print 'Enjoy in base2'
+
+class Derived(Base1,Base2):
+    def __init__(self,name,age):
+        Base1.__init__(self,name)
+        Base2.__init__(self,age)
+        print 'Derived'
+
+    def enjoy(self):
+        Base2.enjoy(self)
+        print 'Enjoy in derived'
+
+#b = Base('awa')
+b = Derived('awi',66)
+#print d.__dict__
+#d.enjoy()
+b.enjoy()

@@ -10,8 +10,8 @@ def main():
     restype = ctypes.c_int
     argtypes = [ ctypes.c_int ]
     fibonacci_prototype = ctypes.CFUNCTYPE(restype, *argtypes)
-    #print lib._FuncPtr
-    fibonacci_function = fibonacci_prototype(lib.Fibonacci)
+    print lib._FuncPtr
+    #fibonacci_function = fibonacci_prototype(lib.Fibonacci)
 
     # term = 10
     # nf = fibonacci_function(term)
