@@ -20,7 +20,7 @@ else:
 '''
 ##Looping
 
-'''
+
 l = [1,3,2,2,2,3,98]
 
 for e in l:
@@ -31,4 +31,3 @@ l = ['this','is','good']
 for c in l:
     print c,
 
-'''

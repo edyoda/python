@@ -5,3 +5,5 @@ with open('test.xml') as fd:
 	
 print doc['mydocument']['plus']['@a']
 print doc['mydocument']['@has']
+for m in doc['mydocument']['and']['many']:
+	print m
