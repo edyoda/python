@@ -1,0 +1,181 @@
+1. Machine Learning – An Introduction
+What is machine learning?
+Different machine learning approaches
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+Steps Involved in machine learning systems
+Brief description of popular techniques/algorithms
+Linear regression
+Decision trees
+K-means
+Naïve Bayes
+Support vector machines
+The cross-entropy method
+Neural networks
+Deep learning
+Applications in real life
+A popular open source package
+
+2. Neural Networks
+Why neural networks?
+Fundamentals
+Neurons and layers
+Different types of activation function
+The back-propagation algorithm
+Linear regression
+Logistic regression
+Back-propagation
+Applications in industry
+Signal processing
+Medical
+Autonomous car driving
+Business
+Pattern recognition
+Speech production
+Code example of a neural network for the function xor
+
+3. Deep Learning Fundamentals
+What is deep learning?
+Fundamental concepts
+Feature learning
+Deep learning algorithms
+Deep learning applications
+Speech recognition
+Object recognition and classification
+GPU versus CPU
+Popular open source libraries – an introduction
+Theano
+TensorFlow
+Keras
+Sample deep neural net code using Keras
+
+4. Unsupervised Feature Learning
+Autoencoders
+Network design
+Regularization techniques for autoencoders
+Denoising autoencoders
+Contractive autoencoders
+Sparse autoencoders
+Summary of autoencoders
+Restricted Boltzmann machines
+Hopfield networks and Boltzmann machines
+Boltzmann machine
+Restricted Boltzmann machine
+Implementation in TensorFlow
+Deep belief networks
+
+5. Image Recognition
+Similarities between artificial and biological models
+Intuition and justification
+Convolutional layers
+Stride and padding in convolutional layers
+Pooling layers
+Dropout
+Convolutional layers in deep learning
+Convolutional layers in Theano
+A convolutional layer example with Keras to recognize digits
+A convolutional layer example with Keras for cifar10
+Pre-training
+
+6. Recurrent Neural Networks and Language Models
+Recurrent neural networks
+RNN — how to implement and train
+Backpropagation through time
+Vanishing and exploding gradients
+Long short term memory
+Language modeling
+Word-based models
+N-grams
+Neural language models
+Character-based model
+Preprocessing and reading data
+LSTM network
+Training
+Sampling
+Example training
+Speech recognition
+Speech recognition pipeline
+Speech as input data
+Preprocessing
+Acoustic model
+Deep belief networks
+Recurrent neural networks
+CTC
+Attention-based models
+Decoding
+End-to-end models
+
+7. Deep Learning for Board Games
+Early game playing AI
+Using the min-max algorithm to value game states
+Implementing a Python Tic-Tac-Toe game
+Learning a value function
+Training AI to master Go
+Upper confidence bounds applied to trees
+Deep learning in Monte Carlo Tree Search
+Quick recap on reinforcement learning
+Policy gradients for learning policy functions
+Policy gradients in AlphaGo
+
+8. Deep Learning for Computer Games
+A supervised learning approach to games
+Applying genetic algorithms to playing games
+Q-Learning
+Q-function
+Q-learning in action
+Dynamic games
+Experience replay
+Epsilon greedy
+Atari Breakout
+Atari Breakout random benchmark
+Preprocessing the screen
+Creating a deep convolutional network
+Convergence issues in Q-learning
+Policy gradients versus Q-learning
+Actor-critic methods
+Baseline for variance reduction
+Generalized advantage estimator
+Asynchronous methods
+Model-based approaches
+
+9. Anomaly Detection
+What is anomaly and outlier detection?
+Real-world applications of anomaly detection
+Popular shallow machine learning techniques
+Data modeling
+Detection modeling
+Anomaly detection using deep auto-encoders
+H2O
+Getting started with H2O
+Examples
+MNIST digit anomaly recognition
+Electrocardiogram pulse detection
+
+10. Building a Production-Ready Intrusion Detection System
+What is a data product?
+Training
+Weights initialization
+Parallel SGD using HOGWILD!
+Adaptive learning
+Rate annealing
+Momentum
+Nesterov's acceleration
+Newton's method
+Adagrad
+Adadelta
+Distributed learning via Map/Reduce
+Sparkling Water
+Testing
+Model validation
+Labeled Data
+Unlabeled Data
+Summary of validation
+Hyper-parameters tuning
+End-to-end evaluation
+A/B Testing
+A summary of testing
+Deployment
+POJO model export
+Anomaly score APIs
+A summary of deployment

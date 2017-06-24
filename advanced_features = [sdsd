@@ -1,0 +1,14 @@
+advanced_features = [
+'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'zipcode',
+'condition', 		
+'grade', 				
+'waterfront', 				
+'view', 				
+'sqft_above', 			
+'sqft_basement', 	
+'yr_built', 				
+'yr_renovated', 				
+'lat', 'long', 				
+'sqft_living15',  				
+'sqft_lot15',  
+]

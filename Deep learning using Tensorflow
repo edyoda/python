@@ -1,0 +1,199 @@
+Getting Started with Deep Learning
+Introducing machine learning
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+What is deep learning?
+How the human brain works
+Deep learning history
+Problems addressed
+Neural networks
+The biological neuron
+An artificial neuron
+How does an artificial neural network learn?
+The backpropagation algorithm
+Weights optimization
+Stochastic gradient descent
+Neural network architectures
+Multilayer perceptron
+DNNs architectures
+Convolutional Neural Networks
+Restricted Boltzmann Machines
+Autoencoders
+Recurrent Neural Networks
+Deep learning framework comparisons
+
+First Look at TensorFlow
+General overview
+What's new with TensorFlow 1.x?
+How does it change the way people use it?
+Installing and getting started with TensorFlow
+Installing TensorFlow on Linux
+Which TensorFlow to install on your platform?
+Requirements for running TensorFlow with GPU from NVIDIA
+How to install TensorFlow
+Installing TensorFlow with native pip
+Installing with virtualenv
+Installing TensorFlow on Windows
+Installation from source
+Install on Windows
+Test your TensorFlow installation
+Computational graphs
+Why a computational graph?
+Neural networks as computational graphs
+The programming model
+Data model
+Rank
+Shape
+Data types
+Variables
+Fetches
+Feeds
+TensorBoard
+How does TensorBoard work?
+Implementing a single input neuron
+Source code for the single input neuron
+Migrating to TensorFlow 1.x
+How to upgrade using the script
+Limitations
+Upgrading code manually
+Variables
+Functions
+Simplified mathematical variants
+Miscellaneous changes
+ 
+Using TensorFlow on a Feed-Forward Neural Network
+Introducing feed-forward neural networks
+Feed-forward and backpropagation
+Weights and biases
+Transfer functions
+Classification of handwritten digits
+Exploring the MNIST dataset
+Softmax classifier
+Visualization
+How to save and restore a TensorFlow model
+Saving a model
+Restoring a model
+Softmax source code
+Softmax loader source code
+Implementing a five-layer neural network
+Visualization
+Five-layer neural network source code
+ReLU classifier
+Visualization
+Source code for the ReLU classifier
+Dropout optimization
+Visualization
+Source code for dropout optimization
+ 
+TensorFlow on a Convolutional Neural Network
+Introducing CNNs
+CNN architecture
+A model for CNNs - LeNet
+Building your first CNN
+Source code for a handwritten classifier
+Emotion recognition with CNNs
+Source code for emotion classifier
+Testing the model on your own image
+Source code
+ 
+Optimizing TensorFlow Autoencoders
+Introducing autoencoders
+Implementing an autoencoder
+Source code for the autoencoder
+Improving autoencoder robustness
+Building a denoising autoencoder
+Source code for the denoising autoencoder
+Convolutional autoencoders
+Encoder
+Decoder
+Source code for convolutional autoencoder
+ 
+Recurrent Neural Networks
+RNNs basic concepts
+RNNs at work
+Unfolding an RNN
+The vanishing gradient problem
+LSTM networks
+An image classifier with RNNs
+Source code for RNN image classifier
+Bidirectional RNNs
+Source code for the bidirectional RNN
+Text prediction
+Dataset
+Perplexity
+PTB model
+Running the example
+ 
+GPU Computing
+GPGPU computing
+GPGPU history
+The CUDA architecture
+GPU programming model
+TensorFlow GPU set up
+Update TensorFlow
+TensorFlow GPU management
+Programming example
+Source code for GPU computation
+GPU memory management
+Assigning a single GPU on a multi-GPU system
+Source code for GPU with soft placement
+Using multiple GPUs
+Source code for multiple GPUs management
+ 
+Advanced TensorFlow Programming
+Introducing Keras
+Installation
+Building deep learning models
+Sentiment classification of movie reviews
+Source code for the Keras movie classifier
+Adding a convolutional layer
+Source code for movie classifier with convolutional layer
+Pretty Tensor
+Chaining layers
+Normal mode
+Sequential mode
+Branch and join
+Digit classifier
+Source code for digit classifier
+TFLearn
+TFLearn installation
+Titanic survival predictor
+Source code for titanic classifier
+ 
+Advanced Multimedia Programming with TensorFlow
+Introduction to multimedia analysis
+Deep learning for Scalable Object Detection
+Bottlenecks
+Using the retrained model
+Accelerated Linear Algebra
+Key strengths of TensorFlow
+Just-in-time compilation via XLA
+JIT compilation
+Existence and advantages of XLA
+Under the hood working of XLA
+Still experimental
+Supported platforms
+More experimental material
+TensorFlow and Keras
+What is Keras?
+Effects of having Keras on board
+Video question answering system
+Not runnable code!
+Deep learning on Android
+TensorFlow demo examples
+Getting started with Android
+Architecture requirements
+Prebuilt APK
+Running the demo
+Building with Android studio
+Going deeper - Building with Bazel
+
+Reinforcement Learning
+Basic concepts of Reinforcement Learning
+Q-learning algorithm
+Introducing the OpenAI Gym framework
+FrozenLake-v0 implementation problem
+Source code for the FrozenLake-v0 problem
+Q-learning with TensorFlow
+Source code for the Q-learning neural network
