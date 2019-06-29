@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<books>
+  <book pub="abc">
+    <title>The Cat in the Hat</title>
+    <author>Dr. Seuss</author>
+    <price>7.99</price>
+    <discount currency="eu">10</discount>
+  </book>
+  <book pub="def">
+    <title>Ender's Game</title>
+    <author>Orson Scott Card</author>
+    <price>8.99</price>
+  </book>
+  <book pub="jkl">
+    <title>Prey</title>
+    <author>Michael Crichton</author>
+    <price>9.35</price>
+    <discount>10</discount>
+  </book>
+</books>

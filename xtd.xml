@@ -1,0 +1,13 @@
+<servers>
+              <server>
+                <name>host1</name>
+                <os>Linux</os>
+                <interfaces>
+                  <interface>
+                    <name>em0</name>
+                    <ip_address>10.0.0.1</ip_address>
+                  </interface>
+                </interfaces>
+              </server>
+</servers>
+
